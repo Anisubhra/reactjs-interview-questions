@@ -65,6 +65,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
 ### Other Questions
 
+| No. | Questions |
+| --- | --------- |
 |   | **Core React** |
 |1  | [What is React?](#what-is-react) |
 |6  | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component) |
