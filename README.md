@@ -20,35 +20,65 @@ Learn to code and get hired with <a href="https://zerotomastery.io/?utm_source=g
 You can download the PDF and Epub version of this repository from the latest run on the [actions tab](https://github.com/sudheerj/reactjs-interview-questions/actions).
 
 ### Table of Contents
+### Top Questions
 
 | No. | Questions |
 | --- | --------- |
-|   | **Core React** |
-|1  | [What is React?](#what-is-react) |
-|2  | [What are the major features of React?](#what-are-the-major-features-of-react) |
 |3  | [What is JSX?](#what-is-jsx) |
-|4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
-|5  | [How to create components in React?](#how-to-create-components-in-react) |
-|6  | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component) |
 |7  | [What are Pure Components?](#what-are-pure-components) |
 |8  | [What is state in React?](#what-is-state-in-react) |
 |9  | [What are props in React?](#what-are-props-in-react) |
 |10 | [What is the difference between state and props?](#what-is-the-difference-between-state-and-props) |
+|16 | [What are synthetic events in React?](#what-are-synthetic-events-in-react) |
+|18 | [What is "key" prop and what is the benefit of using it in arrays of elements?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements) |
+|19 | [What is the use of refs?](#what-is-the-use-of-refs) |
+|20 | [How to create refs?](#how-to-create-refs)
+|21 | [What are forward refs?](#what-are-forward-refs) |
+|24 | [What is Virtual DOM?](#what-is-virtual-dom) |
+|25 | [How Virtual DOM works?](#how-virtual-dom-works) |
+|34 | [What are the lifecycle methods of React?](#what-are-the-lifecycle-methods-of-react) |
+|35 | [What are Higher-Order components?](#what-are-higher-order-components) |
+|41 | [What is reconciliation?](#what-is-reconciliation) |
+|46 | [What are fragments?](#what-are-fragments) |
+|47 | [Why fragments are better than container divs?](#why-fragments-are-better-than-container-divs) |
+|48 | [What are portals in React?](#what-are-portals-in-react) |
+|49 | [What are stateless components?](#what-are-stateless-components) |
+|50 | [What are stateful components?](#what-are-stateful-components) |
+|70 | [How do you memoize a component?](#how-do-you-memoize-a-component) |
+|71 | [How you implement Server-Side Rendering or SSR?](#how-you-implement-server-side-rendering-or-ssr) |
+|72 | [How to enable production mode in React?](#how-to-enable-production-mode-in-react) |
+|128| [What are render props?](#what-are-render-props) |
+|200| [What is the difference between React and Angular?](#what-is-the-difference-between-react-and-angular) |
+|202| [What are styled components?](#what-are-styled-components) |
+|203| [Give an example of Styled Components?](#give-an-example-of-styled-components) |
+|221| [What is React memo function?](#what-is-react-memo-function)|
+|222| [What is React lazy function?](#what-is-react-lazy-function)|
+|226| [What are hooks?](#what-are-hooks)|
+|257| [What is NextJS and major features of it?](#what-is-nextjs-and-major-features-of-it)|
+|273| [What is dynamic import?](#what-is-dynamic-import)|
+|274| [What are loadable components?](#what-are-loadable-components)|
+|275| [What is suspense component?](#what-is-suspense-component)|
+|298| [What is the difference between Real DOM and Virtual DOM?](#what-is-the-difference-between-real-dom-and-virtual-dom)|
+|324| [What are the benefits of using typescript with reactjs?](#what-are-the-benefits-of-using-typescript-with-reactjs)|
+|329| [What are React Server components?](#what-are-react-server-components)|
+|330| [What is prop drilling?](#what-is-prop-drilling)|
+
+### Other Questions
+
+|   | **Core React** |
+|1  | [What is React?](#what-is-react) |
+|6  | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component) |
+|2  | [What are the major features of React?](#what-are-the-major-features-of-react) |
+|4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
+|5  | [How to create components in React?](#how-to-create-components-in-react) |
 |11 | [Why should we not update the state directly?](#why-should-we-not-update-the-state-directly) |
 |12 | [What is the purpose of callback function as an argument of setState()?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)
 |13 | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling) |
 |14 | [How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks) |
 |15 | [How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback) |
-|16 | [What are synthetic events in React?](#what-are-synthetic-events-in-react) |
 |17 | [What are inline conditional expressions?](#what-are-inline-conditional-expressions) |
-|18 | [What is "key" prop and what is the benefit of using it in arrays of elements?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements) |
-|19 | [What is the use of refs?](#what-is-the-use-of-refs) |
-|20 | [How to create refs?](#how-to-create-refs)
-|21 | [What are forward refs?](#what-are-forward-refs) |
 |22 | [Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode) |
 |23 | [Why are String Refs legacy?](#why-are-string-refs-legacy) |
-|24 | [What is Virtual DOM?](#what-is-virtual-dom) |
-|25 | [How Virtual DOM works?](#how-virtual-dom-works) |
 |26 | [What is the difference between Shadow DOM and Virtual DOM?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
 |27 | [What is React Fiber?](#what-is-react-fiber) |
 |28 | [What is the main goal of React Fiber?](#what-is-the-main-goal-of-react-fiber) |
@@ -57,23 +87,15 @@ You can download the PDF and Epub version of this repository from the latest run
 |31 | [What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement) |
 |32 | [What is Lifting State Up in React?](#what-is-lifting-state-up-in-react) |
 |33 | [What are the different phases of component lifecycle?](#what-are-the-different-phases-of-component-lifecycle) |
-|34 | [What are the lifecycle methods of React?](#what-are-the-lifecycle-methods-of-react) |
-|35 | [What are Higher-Order components?](#what-are-higher-order-components) |
 |36 | [How to create props proxy for HOC component?](#how-to-create-props-proxy-for-hoc-component) |
 |37 | [What is context?](#what-is-context) |
 |38 | [What is children prop?](#what-is-children-prop) |
 |39 | [How to write comments in React?](#how-to-write-comments-in-react) |
 |40 | [What is the purpose of using super constructor with props argument?](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
-|41 | [What is reconciliation?](#what-is-reconciliation) |
 |42 | [How to set state with a dynamic key name?](#how-to-set-state-with-a-dynamic-key-name) |
 |43 | [What would be the common mistake of function being called every time the component renders?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
 |44 | [Is lazy function supports named exports?](#is-lazy-function-supports-named-exports) |
 |45 | [Why React uses className over class attribute?](#why-react-uses-classname-over-class-attribute) |
-|46 | [What are fragments?](#what-are-fragments) |
-|47 | [Why fragments are better than container divs?](#why-fragments-are-better-than-container-divs) |
-|48 | [What are portals in React?](#what-are-portals-in-react) |
-|49 | [What are stateless components?](#what-are-stateless-components) |
-|50 | [What are stateful components?](#what-are-stateful-components) |
 |51 | [How to apply validation on props in React?](#how-to-apply-validation-on-props-in-react) |
 |52 | [What are the advantages of React?](#what-are-the-advantages-of-react) |
 |53 | [What are the limitations of React?](#what-are-the-limitations-of-react) |
@@ -93,9 +115,6 @@ You can download the PDF and Epub version of this repository from the latest run
 |67 | [How do you conditionally render components?](#how-do-you-conditionally-render-components)
 |68 | [Why we need to be careful when spreading props on DOM elements??](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
 |69 | [How you use decorators in React?](#how-you-use-decorators-in-react) |
-|70 | [How do you memoize a component?](#how-do-you-memoize-a-component) |
-|71 | [How you implement Server-Side Rendering or SSR?](#how-you-implement-server-side-rendering-or-ssr) |
-|72 | [How to enable production mode in React?](#how-to-enable-production-mode-in-react) |
 |73 | [What is CRA and its benefits?](#what-is-cra-and-its-benefits) |
 |74 | [What is the lifecycle methods order in mounting?](#what-is-the-lifecycle-methods-order-in-mounting) |
 |75 | [What are the lifecycle methods going to be deprecated in React v16?](#what-are-the-lifecycle-methods-going-to-be-deprecated-in-react-v16) |
@@ -150,7 +169,6 @@ You can download the PDF and Epub version of this repository from the latest run
 |125| [What is the benefit of styles modules?](#what-is-the-benefit-of-styles-modules) |
 |126| [What are the popular React-specific linters?](#what-are-the-popular-react-specific-linters) |
 |127| [How to make AJAX call and In which component lifecycle methods should I make an AJAX call?](#how-to-make-ajax-call-and-in-which-component-lifecycle-methods-should-i-make-an-ajax-call) |
-|128| [What are render props?](#what-are-render-props) |
 |   | **React Router** |
 |129| [What is React Router?](#what-is-react-router) |
 |130| [How React Router is different from history library?](#how-react-router-is-different-from-history-library) |
@@ -229,10 +247,7 @@ You can download the PDF and Epub version of this repository from the latest run
 |197| [Why is DevTools not loading in Chrome for local files?](#why-is-devtools-not-loading-in-chrome-for-local-files) |
 |198| [How to use Polymer in React?](#how-to-use-polymer-in-react) |
 |199| [What are the advantages of React over Vue.js?](#what-are-the-advantages-of-react-over-vuejs) |
-|200| [What is the difference between React and Angular?](#what-is-the-difference-between-react-and-angular) |
 |201| [Why React tab is not showing up in DevTools?](#why-react-tab-is-not-showing-up-in-devtools) |
-|202| [What are styled components?](#what-are-styled-components) |
-|203| [Give an example of Styled Components?](#give-an-example-of-styled-components) |
 |204| [What is Relay?](#what-is-relay) |
 |205| [How to use TypeScript in create-react-app application?](#how-to-use-typescript-in-create-react-app-application) |
 |   | **Miscellaneous** |
@@ -250,12 +265,9 @@ You can download the PDF and Epub version of this repository from the latest run
 |218| [How to pass numbers to React component?](#how-to-pass-numbers-to-react-component)|
 |219| [Do I need to keep all my state into Redux? Should I ever use react internal state?](#do-i-need-to-keep-all-my-state-into-redux-should-i-ever-use-react-internal-state)|
 |220| [What is the purpose of registerServiceWorker in React?](#what-is-the-purpose-of-registerserviceworker-in-react)|
-|221| [What is React memo function?](#what-is-react-memo-function)|
-|222| [What is React lazy function?](#what-is-react-lazy-function)|
 |223| [How to prevent unnecessary updates using setState?](#how-to-prevent-unnecessary-updates-using-setstate)|
 |224| [How do you render Array, Strings and Numbers in React 16 Version?](#how-do-you-render-array-strings-and-numbers-in-react-16-version)|
 |225| [How to use class field declarations syntax in React classes?](#how-to-use-class-field-declarations-syntax-in-react-classes)|
-|226| [What are hooks?](#what-are-hooks)|
 |227| [What rules need to be followed for hooks?](#what-rules-need-to-be-followed-for-hooks)|
 |228| [How to ensure hooks followed the rules in your project?](#how-to-ensure-hooks-followed-the-rules-in-your-project)|
 |229| [What are the differences between Flux and Redux?](#what-are-the-differences-between-flux-and-redux)|
@@ -286,7 +298,6 @@ You can download the PDF and Epub version of this repository from the latest run
 |254| [What are the limitations with HOCs?](#what-are-the-limitations-with-hocs)|
 |255| [How to debug forwardRefs in DevTools?](#how-to-debug-forwardrefs-in-devtools)|
 |256| [When component props defaults to true?](#when-component-props-defaults-to-true)|
-|257| [What is NextJS and major features of it?](#what-is-nextjs-and-major-features-of-it)|
 |258| [How do you pass an event handler to a component?](#how-do-you-pass-an-event-handler-to-a-component)|
 |259| [Is it good to use arrow functions in render methods?](#is-it-good-to-use-arrow-functions-in-render-methods)|
 |260| [How to prevent a function from being called multiple times?](#how-to-prevent-a-function-from-being-called-multiple-times)|
@@ -302,9 +313,6 @@ You can download the PDF and Epub version of this repository from the latest run
 |270| [What are the advantages of formik over redux form library?](#what-are-the-advantages-of-formik-over-redux-form-library)|
 |271| [Why do you not required to use inheritance?](#why-do-you-not-required-to-use-inheritance)|
 |272| [Can I use web components in react application?](#can-i-use-web-components-in-react-application)|
-|273| [What is dynamic import?](#what-is-dynamic-import)|
-|274| [What are loadable components?](#what-are-loadable-components)|
-|275| [What is suspense component?](#what-is-suspense-component)|
 |276| [What is route based code splitting?](#what-is-route-based-code-splitting)|
 |277| [Give an example on How to use context?](#give-an-example-on-how-to-use-context)|
 |278| [What is the purpose of default value in context?](#what-is-the-purpose-of-default-value-in-context)|
@@ -327,7 +335,6 @@ You can download the PDF and Epub version of this repository from the latest run
 |295| [What is the typical use case of portals?](#what-is-the-typical-use-case-of-portals)|
 |296| [How do you set default value for uncontrolled component?](#how-do-you-set-default-value-for-uncontrolled-component)|
 |297| [What is your favorite React stack?](#what-is-your-favorite-react-stack)|
-|298| [What is the difference between Real DOM and Virtual DOM?](#what-is-the-difference-between-real-dom-and-virtual-dom)|
 |299| [How to add Bootstrap to a react application?](#how-to-add-bootstrap-to-a-react-application)|
 |300| [Can you list down top websites or applications using react as front end framework?](#can-you-list-down-top-websites-or-applications-using-react-as-front-end-framework)|
 |301| [Is it recommended to use CSS In JS technique in React?](#is-it-recommended-to-use-css-in-js-technique-in-react)|
@@ -353,13 +360,10 @@ You can download the PDF and Epub version of this repository from the latest run
 |321| [Can I use javascript urls in react16.9?](#can-i-use-javascript-urls-in-react169)|
 |322| [What is the purpose of eslint plugin for hooks?](#what-is-the-purpose-of-eslint-plugin-for-hooks)|
 |323| [What is the difference between Imperative and Declarative in React?](#what-is-the-difference-between-imperative-and-declarative-in-react)|
-|324| [What are the benefits of using typescript with reactjs?](#what-are-the-benefits-of-using-typescript-with-reactjs)|
 |325| [How do you make sure that user remains authenticated on page refresh while using Context API State Management?](#how-do-you-make-sure-that-user-remains-authenticated-on-page-refresh-while-using-context-api-state-management)|
 |326| [What are the benefits of new JSX transform?](#what-are-the-benefits-of-new-jsx-transform)|
 |327| [How does new JSX transform different from old transform?](#how-does-new-jsx-transform-different-from-old-transform)|
 |328| [How do you get redux scaffolding using create-react-app?](#how-do-you-get-redux-scaffolding-using-create-react-app)|
-|329| [What are React Server components?](#what-are-react-server-components)|
-|330| [What is prop drilling?](#what-is-prop-drilling)|
 |331| [What is state mutation and how to prevent it?](#what-is-state-mutation-and-how-to-prevent-it)|
 |332| [What is the difference between useState and useRef hook?](#what-is-the-difference-between-usestate-and-useref-hook)|
 
